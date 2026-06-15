@@ -5,7 +5,7 @@ This repository contains the database schema, sample data, and SQL queries for t
 ## 📌 Important Links for Assignment Submission
 
 *   **ERD Diagram (Public Link):** https://drive.google.com/file/d/165E-YnKAB6HkaNVHWSUnxrpyx2BMIuJt/view?usp=sharing
-*   **Viva Video (Public Link):** [এখানে_তোমার_গুগল_ড্রাইভ_বা_ইউটিউবের_ভিডিও_লিংকটি_পেস্ট_করো]
+*   **Viva Video (Public Link):** https://drive.google.com/file/d/1sGr0eHqh53bJEyHAPhsoYVhCsLM4gfL0/view?usp=sharing
 
 ## 🛠️ Technologies Used
 *   **Database:** PostgreSQL / MySQL
