@@ -17,3 +17,14 @@ CREATE TABLE Users (
     role VARCHAR(50) CHECK (role IN ('Ticket Manager', 'Football Fan')),
     phone_number VARCHAR(20)
 );
+
+-- =========================================================================
+-- 2. CREATE MATCHES TABLE
+-- =========================================================================
+CREATE TABLE Matches (
+    match_id INT PRIMARY KEY,
+    fixture VARCHAR(150),
+    tournament_category VARCHAR(100),
+    base_ticket_price DECIMAL(10,2) CHECK (base_ticket_price >= 0),
+    match_status VARCHAR(50) CHECK (match_status IN ('Available', 'Selling Fast', 'Sold Out', 'Postponed'))
+);
